@@ -43,7 +43,6 @@ const columns = [
         key: "TotalRecovered"
     }
 ];
-const data = []
 class Countries extends React.Component {
 
     render() {
