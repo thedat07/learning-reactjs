@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { api } from '../../services/api';
 import { useHistory } from 'react-router-dom'
-import {helper} from '../../helpers/common'
+import { helper } from '../../helpers/common'
 import { Row, Col, Form, Input, Button } from 'antd';
 const layout = {
     labelCol: {
@@ -40,6 +40,7 @@ const LoginPage = () => {
     return (
         <Row style={{ marginTop: '30px' }}>
             <Col span={10} offset={7}>
+                <h2 style={{ textAlign: 'center', color: 'red' }}>Login </h2>
                 <h3 style={{ textAlign: 'center', color: 'red' }}>{errorLogin}</h3>
                 <Form
                     {...layout}
