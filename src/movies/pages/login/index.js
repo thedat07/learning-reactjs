@@ -40,7 +40,7 @@ const LoginPage = () => {
     return (
         <Row style={{ marginTop: '30px' }}>
             <Col span={10} offset={7}>
-                <h2 style={{ textAlign: 'center', color: 'red' }}>Login </h2>
+                <h2 style={{ textAlign: 'center', color: 'red' }}>Login Admin</h2>
                 <h3 style={{ textAlign: 'center', color: 'red' }}>{errorLogin}</h3>
                 <Form
                     {...layout}
